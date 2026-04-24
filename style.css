@@ -1,0 +1,154 @@
+body{
+    text-align: center;
+    background-color: #F5DDDD;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    height:60px;
+    background-color: #53687E;
+    color: black;
+    text-align: center;
+    font-size:2.5rem;
+    justify-content: center;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0px;
+    padding:60px;
+}
+.rock{
+    background-image: url("Screenshot rps-03.png");
+    background-size: cover;
+}
+.paper{
+    background-image: url("Screenshot rps-01.png");
+    background-size: cover;
+}
+.scissors{
+    background-image: url("Screenshot rps-02.png");
+    background-size: cover;
+}
+#box1{
+    height:120px;
+    width:120px;
+    /* border:2px solid black; */
+    border-radius: 50%;
+    margin:20px;
+}
+#box2{
+    height:120px;
+    width:120px;
+    /* border:2px solid black; */
+    border-radius: 50%;
+    margin:20px;
+}
+#box3{
+    height:120px;
+    width:120px;
+    /* border:2px solid black; */
+    border-radius: 50%;
+    margin:20px;
+}
+#box:hover{
+    opacity:0.8;
+    border:5px solid black;
+}
+.score{
+    display: flex;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    justify-content: center;
+    height:120px;
+    width:200px;
+    margin-left:42%;
+    /* border: 1px solid black; */
+}
+.user{
+    height:90px;
+    width:80px;
+    /* border: 1px solid black; */
+    padding:10px;
+}
+.comp{
+    height:90px;
+    width:80px;
+    padding:10px;
+    /* border: 1px solid black; */
+}
+.you{
+    margin:10px;
+}
+.comp1{
+    margin:10px;
+}
+.num1{
+    font-size:2.5rem;
+}
+.num2{
+    font-size:2.5rem;
+}
+.abc{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:15px;
+    align-items: center;
+}
+.xyz{
+    margin-left:50px;
+    height:35px;
+    width:100px;
+    font-size: large;
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.select{
+    height:35px;
+    width:250px;
+    font-size: large;
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+.cde{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:15px;
+    align-items: center;
+}
+.computer{
+    height:35px;
+    width:250px;
+    font-size: large;
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+}
+.cdef{
+    display:none;
+}
+.win{
+    background-color: green;
+}
+.lost{
+    background-color: red;
+}
